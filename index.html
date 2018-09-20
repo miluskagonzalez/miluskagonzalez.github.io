@@ -10,29 +10,159 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Materialize CSS-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--CSS-->
   <link rel="stylesheet" href="css/main.css">
+  <!--Animaciones-->
+  <link rel="stylesheet" href="css/animations.css">
   <title>Miluska González</title>
 </head>
 
 <body>
   <header>
-    <nav class="nav-wrapper transparent">
-      <div class="container ">
-        <a href="#" class="brand-logo blue-text">Miluska González</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="">Sass</a></li>
-          <li><a href="">Components</a></li>
-          <li><a href="">JavaScript</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="navbar-fixed">
+      <nav class="nav-wrapper white">
+        <div class="container">
+          <a href="#home" class="left-padding">
+            <!--Logo aquí-->
+          </a>
+          <ul class="right hide-on-small-only table-of-contents">
+            <li><a class="options" href="#portfolio">portafolio</a></li>
+            <li><a class="options" href="#aboutme">sobre mí</a></li>
+            <li><a class="options" href="#contact">contacto</a></li>
+          </ul>
+          <a href="#" class="dropdown-trigger options right right-padding no-outline hide-on-med-and-up" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul id="mobile-menu" class="dropdown-content">
+            <li><a class="options" href="#portfolio">portafolio</a></li>
+            <li><a class="options" href="#aboutme">sobre mí</a></li>
+            <li><a class="options" href="#contact">contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <section id="home" class="scrollspy full-height">
+
+    </section>
   </header>
   <main>
+    <section id="portfolio" class="scrollspy container row section">
+      <div class="col s12">
+        <h3 class="header">portafolio<span class="cursor">_</span></h3>
+        <p class="deep-koamaru-text flow-text">I am a very simple card. I am good at containing small bits of information.</p>
+      </div>
+
+      <div class="col m12">
+        <div class="card hide-on-med-and-up">
+          <div class="card-image">
+            <!--Imagen de projecto aquí-->
+            <img src="">
+          </div>
+          <div class="card-content">
+            <h6 class="card-header">project title</h6>
+            <p class="deep-koamaru-text">I am a very simple card. I am good at containing small bits of information. I am
+              convenient because I require little markup to use effectively.</p>
+          </div>
+        </div>
+        <div class="card horizontal hide-on-small-only">
+          <div class="card-image valign-wrapper">
+            <!--Imagen de projecto aquí-->
+            <img src="">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <h6 class="card-header">project title</h6>
+              <p class="deep-koamaru-text">I am a very simple card. I am good at containing small bits of information. I
+                am convenient because I require little markup to use effectively. I am similar to what is called a panel
+                in other frameworks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col m12">
+        <div class="card hide-on-med-and-up">
+          <div class="card-image">
+            <!--Imagen de proyecto aquí-->
+            <img src="">
+          </div>
+          <div class="card-content">
+            <h6 class="card-header">project title</h6>
+            <p class="deep-koamaru-text">I am a very simple card. I am good at containing small bits of information. I am
+              convenient because I require little markup to use effectively.</p>
+          </div>
+        </div>
+        <div class="card horizontal hide-on-small-only">
+          <div class="card-stacked">
+            <div class="card-content">
+              <h6 class="card-header">project title</h6>
+              <p class="deep-koamaru-text">I am a very simple card. I am good at containing small bits of information. I
+                am convenient because I require little markup to use effectively. I am similar to what is called a panel
+                in other frameworks.</p>
+            </div>
+          </div>
+          <div class="card-image valign-wrapper">
+            <!--Imagen de projecto aquí-->
+            <img src="">
+          </div>
+        </div>
+      </div>
+
+      <div class="col m12">
+        <div class="card hide-on-med-and-up">
+          <div class="card-image">
+            <!--Imagen de projecto aquí-->
+            <img src="">
+          </div>
+          <div class="card-content">
+            <h6 class="card-header">project title</h6>
+            <p class="deep-koamaru-text">I am a very simple card. I am good at containing small bits of information. I am
+              convenient because I require little markup to use effectively.</p>
+          </div>
+        </div>
+        <div class="card horizontal hide-on-small-only">
+          <div class="card-image valign-wrapper">
+            <!--Imagen de projecto aquí-->
+            <img src="">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <h6 class="card-header">project title</h6>
+              <p class="deep-koamaru-text">I am a very simple card. I am good at containing small bits of information. I
+                am convenient because I require little markup to use effectively. I am similar to what is called a panel
+                in other frameworks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="aboutme" class="container section row scrollspy">
+      <div class="col s12">
+        <h3 class="header">sobre mí<span class="cursor">_</span></h3>
+      </div>
+      <div class="col s12">
+        <blockquote class="deep-koamaru-text flow-text">
+          <p>
+            Hola, mi nombre es Miluska, soy una Front-end developer con background en Diseño Gráfico, apasionada del arte y curiosa innata.
+            Me adapto con facilidad y disfruto tanto la libertad y el nivel de responsabilidad que implica trabajar individualmente,
+            como lo enriquecedor que resulta el trabajo en equipo.
+          </p>
+        </blockquote>
+      </div>
+    </section>
   </main>
+  <footer id="contact" class="full-height valign-wrapper scrollspy">
+    <div class="section container row">
+      <div class="col s12">
+        <h3 class="header">contacto<span class="cursor">_</span></h3>
+        <p class="white-text flow-text">Contáctame a través de cualquiera de estos canales</p>
+      </div>
+    </div>
+  </footer>
   <!--Materialize JS-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <!--DOM-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+  <script src="js/materialize.js "></script>
   <script src="js/app.js"></script>
 </body>
 

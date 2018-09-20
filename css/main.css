@@ -1,6 +1,67 @@
-header {
-  background: url(../assets/images/v203-tang-09-workspace_2.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 720px;
+.full-height {
+  min-height: -o-calc(100vh - 56px);
+  min-height: -webkit-calc(100vh - 56px);
+  min-height: -moz-calc(100vh - 56px);
+  min-height: calc(100vh- 56px);
+  background-color: #283667;
+}
+
+.options,
+.header {
+  color: #4BCCB9 !important;
+  font-weight: bold !important;
+  text-transform: uppercase;
+}
+
+.options:hover {
+  color: #FDAF8B !important;
+  background-color: transparent;
+}
+
+.table-of-contents a:hover,
+.table-of-contents a.active {
+  padding-left: 16px;
+  border: none;
+  color: #FDAF8B !important;
+}
+
+.dropdown-content li:hover {
+  background-color: transparent;
+}
+
+.card-header {
+  text-transform: uppercase;
+  color: #F59365 !important;
+  font-weight: 500;
+}
+
+.card-content p {
+  font-size: 16px;
+}
+
+.deep-koamaru-text {
+  color: #283667 !important;
+}
+
+.no-outline {
+  outline: none;
+}
+
+blockquote {
+  border-left-color: #F59365;
+}
+
+@media (min-width: 601px) {
+
+  .full-height {
+    min-height: -o-calc(100vh - 64px);
+    min-height: -webkit-calc(100vh - 64px);
+    min-height: -moz-calc(100vh - 64px);
+    min-height: calc(100vh - 64px);
+  }
+
+  .left-padding {
+    padding-left: 15px;
+  }
+
 }
