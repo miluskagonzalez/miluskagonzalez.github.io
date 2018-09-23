@@ -1,8 +1,8 @@
 .full-height {
-  min-height: -o-calc(100vh - 57px);
-  min-height: -webkit-calc(100vh - 57px);
-  min-height: -moz-calc(100vh - 57px);
-  min-height: calc(100vh- 5px);
+  min-height: -o-calc(100vh - 56px);
+  min-height: -webkit-calc(100vh - 56px);
+  min-height: -moz-calc(100vh - 56px);
+  min-height: calc(100vh- 56px);
   background-color: #193574;
 }
 
@@ -53,7 +53,7 @@
   color: #7CDEDC !important;
 }
 
-.tea-rose-text {
+.bubble-gum-text {
   color: #FFCDC7 !important;
 }
 
