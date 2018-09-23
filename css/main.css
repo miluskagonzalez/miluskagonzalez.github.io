@@ -1,8 +1,8 @@
 .full-height {
-  min-height: -o-calc(100vh - 56px);
-  min-height: -webkit-calc(100vh - 56px);
-  min-height: -moz-calc(100vh - 56px);
-  min-height: calc(100vh- 56px);
+  min-height: -o-calc(100vh - 57px);
+  min-height: -webkit-calc(100vh - 57px);
+  min-height: -moz-calc(100vh - 57px);
+  min-height: calc(100vh- 5px);
   background-color: #283667;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .options:hover {
-  color: #FDAF8B !important;
+  color: #FCA8A6 !important;
   background-color: transparent;
 }
 
@@ -22,7 +22,7 @@
 .table-of-contents a.active {
   padding-left: 16px;
   border: none;
-  color: #FDAF8B !important;
+  color: #FCA8A6 !important;
 }
 
 .dropdown-content li:hover {
@@ -31,11 +31,12 @@
 
 .card-header {
   text-transform: uppercase;
-  color: #F59365 !important;
+  color: #FCA8A6 !important;
   font-weight: 500;
 }
 
-.card-content p {
+.card-content p,
+.text {
   font-size: 16px;
 }
 
@@ -47,8 +48,21 @@
   outline: none;
 }
 
+.custom-icon {
+  font-size: 40px;
+  color: #4BCCB9 !important;
+}
+
+.tea-rose-text {
+  color: #FCA8A6 !important;
+}
+
 blockquote {
-  border-left-color: #F59365;
+  border-left-color: #FCA8A6;
+}
+
+.margin-right {
+  margin-right: 25px;
 }
 
 @media (min-width: 601px) {
@@ -62,6 +76,14 @@ blockquote {
 
   .left-padding {
     padding-left: 15px;
+  }
+
+}
+
+@media (min-width: 690px) {
+
+  .flow-text-limit {
+    font-size: 1.464rem;
   }
 
 }
