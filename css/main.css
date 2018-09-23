@@ -3,7 +3,7 @@
   min-height: -webkit-calc(100vh - 57px);
   min-height: -moz-calc(100vh - 57px);
   min-height: calc(100vh- 5px);
-  background-color: #283667;
+  background-color: #193574;
 }
 
 .options,
@@ -40,8 +40,8 @@
   font-size: 16px;
 }
 
-.deep-koamaru-text {
-  color: #283667 !important;
+.st-patricks-blue-text {
+  color: #193574 !important;
 }
 
 .no-outline {
