@@ -6,8 +6,8 @@ Dropdown.init(document.querySelectorAll('.dropdown-trigger'), {
 
 const scrollSpyElements = document.querySelectorAll('.scrollspy');
 
-ScrollSpy.init(scrollSpyElements, { scrollOffset: (window.innerWidth < '601' ? 56 : 64) });
+ScrollSpy.init(scrollSpyElements, { scrollOffset: (window.innerWidth < '601' ? 55 : 63) });
 
 window.addEventListener('resize', () => {
-  ScrollSpy.init(scrollSpyElements, { scrollOffset: (window.innerWidth < '601' ? 56 : 64) })
+  ScrollSpy.init(scrollSpyElements, { scrollOffset: (window.innerWidth < '601' ? 55 : 63) })
 });
