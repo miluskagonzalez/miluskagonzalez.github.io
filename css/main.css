@@ -14,7 +14,7 @@
 }
 
 .options:hover {
-  color: #FCA8A6 !important;
+  color: #FEB3B0 !important;
   background-color: transparent;
 }
 
@@ -22,7 +22,7 @@
 .table-of-contents a.active {
   padding-left: 16px;
   border: none;
-  color: #FCA8A6 !important;
+  color: #FEB3B0 !important;
 }
 
 .dropdown-content li:hover {
@@ -31,7 +31,7 @@
 
 .card-header {
   text-transform: uppercase;
-  color: #FCA8A6 !important;
+  color: #FEB3B0 !important;
   font-weight: 500;
 }
 
@@ -54,11 +54,11 @@
 }
 
 .tea-rose-text {
-  color: #FCA8A6 !important;
+  color: #FEB3B0 !important;
 }
 
 blockquote {
-  border-left-color: #FCA8A6;
+  border-left-color: #FEB3B0;
 }
 
 .margin-right {
