@@ -6,15 +6,17 @@
   background-color: #193574;
 }
 
-.custom-icon-l,
-.options,
-.header {
+.middle-blue-text {
   color: #7CDEDC !important;
 }
 
-.options,
-.header {
+.st-patricks-blue-text {
+  color: #193574 !important;
+}
+
+.bold-upper {
   font-weight: bold !important;
+  text-transform: uppercase;
 }
 
 .table-of-contents a:hover,
@@ -24,43 +26,31 @@
 }
 
 .dropdown-content li:hover,
-.options:hover {
+.hoverable-link:hover {
   background-color: transparent;
 }
 
-.card-header {
-  font-weight: 500;
-}
-
-.card-header,
-.options,
-.header {
-  text-transform: uppercase;
-}
-
-.card-content p,
 .text {
   font-size: 16px;
 }
 
-.st-patricks-blue-text {
-  color: #193574 !important;
+.st-patricks-blue {
+  background-color: #7CDEDC !important;
 }
 
 .no-outline {
   outline: none;
 }
 
-.custom-icon-l {
-  font-size: 40px;
-}
-
 .table-of-contents a:hover,
 .table-of-contents a.active,
 .bubble-gum-text,
-.options:hover,
-.card-header {
+.hoverable-link:hover {
   color: #FFCDC7 !important;
+}
+
+.card.medium .card-image+.card-content {
+  max-height: 100%;
 }
 
 blockquote {
@@ -81,7 +71,7 @@ blockquote {
   }
 
   .left-padding {
-    padding-left: 15px;
+    padding-left: 10px;
   }
 
 }
