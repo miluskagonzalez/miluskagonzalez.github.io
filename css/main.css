@@ -3,7 +3,6 @@
   min-height: -webkit-calc(100vh - 56px);
   min-height: -moz-calc(100vh - 56px);
   min-height: calc(100vh- 56px);
-  background-color: #193574;
 }
 
 .middle-blue-text {
@@ -35,7 +34,7 @@
 }
 
 .st-patricks-blue {
-  background-color: #7CDEDC !important;
+  background-color: #193574;
 }
 
 .no-outline {
